@@ -1,0 +1,14 @@
+# Core scientific stack (DATA 100 familiar)
+numpy
+matplotlib
+
+# Kepler/TESS light curve download + loading (used ONLY inside src/ingest.py)
+lightkurve
+
+# Notebooks + interactive parameter exploration
+jupyterlab
+ipywidgets
+
+# Testing + notebook hygiene
+pytest
+nbstripout

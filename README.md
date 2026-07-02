@@ -6,6 +6,18 @@ available NASA Kepler/TESS light curves.
 > **Status:** in active development. Architecture and design rationale are being
 > documented in `DESIGN.md` as the project is built.
 
+## Setup
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+nbstripout --install   # strips notebook outputs on commit (per-clone git filter)
+```
+
+Requires Python 3.13+. The `nbstripout --install` step must be re-run in every
+fresh clone — the git filter lives in local git config, not in the repo.
+
 ## Use of AI assistance
 
 I used Claude as a **scaffolding assistant**, not a ghostwriter. The
