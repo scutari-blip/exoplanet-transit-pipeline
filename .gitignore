@@ -219,3 +219,6 @@ __marimo__/
 
 # macOS Finder metadata
 .DS_Store
+
+# Internal working docs (not for publication)
+internal/
